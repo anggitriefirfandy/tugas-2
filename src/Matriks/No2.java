@@ -30,7 +30,7 @@ public class No2 {
             int [][] C = new int[A.length][A[0].length];
             for(int i=0; i<A.length; i++){
                 for(int j=0; j<A[0].length; j++){
-                    C[i][j] = A[i][j]-B[i][j];
+                    C[i][j] += A[i][j]-B[i][j];
                 }
             }
             for (int []c :C){
